@@ -1,4 +1,4 @@
-import pandas as pd
+"""import pandas as pd
 import sqlite3
 
 # 設定
@@ -10,7 +10,7 @@ DB_FILE_PATH = 'recipe_app/nutrition.db'
 TABLE_NAME = 'nutrition'
 
 def create_database():
-    """エクセルファイルを読み込んでSQLiteデータベースを作成する"""
+    エクセルファイルを読み込んでSQLiteデータベースを作成する
     try:
         # エクセルファイルをPandasで読み込む
         print(f"'{EXCEL_FINE_PATH}'を読み込んでいます...")
@@ -40,3 +40,5 @@ def create_database():
         
     if __name__ == '__main__':
         create_database()
+        
+"""
